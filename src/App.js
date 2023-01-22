@@ -15,8 +15,8 @@ import Show from "./Uyarı/Show"
    //let secilenKelime=kelimeler[Math.floor(Math.random()*kelimeler.length)];
    
    //28-
-   let secilenTahim=kelimetahmin[Math.floor(Math.random()*kelimetahmin.length)];
-   let secilenKelime=secilenTahim.kelime;
+   let secilenTahmin=kelimetahmin[Math.floor(Math.random()*kelimetahmin.length)];
+   let secilenKelime=secilenTahmin.kelime;
    
    function App() {
     //9-
@@ -64,14 +64,14 @@ function TekrarOyna(e) {
   setDogruHarfler([]);
   setHatalıHarfler([]);
 
-  secilenTahim=kelimetahmin[Math.floor(Math.random()*kelimetahmin.length)];
+  secilenTahmin=kelimetahmin[Math.floor(Math.random()*kelimetahmin.length)];
   secilenKelime=secilenTahim.kelime;
 }
 
 return (
     
     <div>
-    <Header secilenTahim={secilenTahim} hatalıHarfler={hatalıHarfler}/>
+    <Header secilenTahim={secilenTahmin} hatalıHarfler={hatalıHarfler}/>
     <div className={`game-container ${oyunOyna}`}>
       {/*16 */}
       <Figure hatalıHarfler={hatalıHarfler}/>
