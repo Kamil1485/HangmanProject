@@ -1,0 +1,146 @@
+*{
+  box-sizing:border-box;
+}
+body{
+  display:flex;
+  align-items:center;
+  flex-direction:column;
+  overflow:hidden;
+  background-color:#17d8cb;
+  height:100vh;
+  font-family:"Montserrat"
+}
+.game-container {
+  padding: 20px 25px;
+  position: relative;
+  margin: auto;
+  height: 320px;
+  width: 420px;
+
+}
+
+h1{
+ color:orange;
+ font-family:"Roboto,Arial,sans-serif";
+}
+h3{
+  color:purple;
+}
+/************** OYUN CONTAİNER SONU *****************************************************/
+
+/*ASILACAK ADAMIN PORTRESİ*/
+
+.figure-container {
+  fill: green;
+  stroke: #fff;
+  stroke-width: 8px;
+  stroke-linecap:round;
+ 
+}
+
+.figure-part {
+  display: none;
+}
+
+/*Word Componenti*/
+.word {
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  color:yellow;
+}
+
+.letter {
+  border-bottom: 2px solid purple ;
+  display: inline-flex;
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 3px;
+  height: 40px;
+  width: 30px;
+  background:green;
+}
+
+
+/*Hata Mesajı*/
+.wrong-letters-container {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color:yellow;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+
+}
+
+.wrong-letters-container p {
+  margin:2px 2px;
+  padding:4px;
+}
+
+.wrong-letters-container span {
+  color:blue;
+  margin-top:6px;
+  font-size:19px;
+}
+.false{
+  display:none;
+}
+.true{
+  display:block;
+}
+.popup-container {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* display: flex; */
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup {
+  background: #2980b9;
+  border-radius: 5px;
+  box-shadow: 0 15px 10px 3px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.popup button {
+  cursor: pointer;
+  background-color: #fff;
+  color: #2980b9;
+  border: 0;
+  margin-top: 20px;
+  padding: 12px 20px;
+  font-size: 16px;
+}
+
+.popup button:active {
+  transform: scale(0.98);
+}
+
+.popup button:focus {
+  outline: 0;
+}
+
+
+.notification-message{
+  position:absolute;
+  margin-top:-220px;
+  margin-left:250px;
+  color:red;
+  width:300px;
+  tex-align:center;
+  padding-left:45px;
+  background:white;
+
+}
