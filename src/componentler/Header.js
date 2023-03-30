@@ -1,7 +1,6 @@
 import React from 'react';
 
 const Header = ({secilenTahmin,hatalıHarfler,score}) => {
-    console.log(secilenTahmin)
     return (
         <div>
             <h1>Adam Asmaca Oyunu</h1>
