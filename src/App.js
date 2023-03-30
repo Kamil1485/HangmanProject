@@ -65,7 +65,7 @@ function TekrarOyna(e) {
   setHatalıHarfler([]);
 
   secilenTahmin=kelimetahmin[Math.floor(Math.random()*kelimetahmin.length)];
-  secilenKelime=secilenTahim.kelime;
+  secilenKelime=secilenTahmin.kelime;
 }
 
 return (
