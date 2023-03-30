@@ -1,4 +1,3 @@
-import React from 'react';
 
 const CheckWin = (dogruHarfler,hatalıHarfler,secilenKelime) => {
     let status = 'kazandı';
@@ -11,7 +10,7 @@ const CheckWin = (dogruHarfler,hatalıHarfler,secilenKelime) => {
     });
     
     // Check for lose
-    if(hatalıHarfler.length === secilenKelime.length) status = 'kaybetti';
+    if(hatalıHarfler.length>=6) status = 'kaybetti';
     //hata  yapma hakkı kelime uzunlugu kadar olur
   
     return status

@@ -136,11 +136,32 @@ h3{
 .notification-message{
   position:absolute;
   margin-top:-220px;
-  margin-left:250px;
-  color:red;
+  margin-left:450px;
+  color:purple;
   width:300px;
   tex-align:center;
   padding-left:45px;
   background:white;
+
+}
+.word2 {
+  display: flex;
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  color:red;
+  cursor:pointer;
+}
+
+.letter2 {
+  border: 2px solid purple ;
+  display: inline-flex;
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 3px;
+  height: 40px;
+  width: 30px;
 
 }
