@@ -20,8 +20,7 @@ import Show from "./Uyarı/Show"
     {ipucu:"Futbolda hem orta yuvarlak hem başlama vuruşu anlamlarına gelen söz",kelime:"santra"},
     {ipucu:"Takım çalışmalarında ekip elemanlarının sorumluluk ve yükümlülükleri paylaşması",kelime:"ısbolumu"},
     {ipucu:"Hastane, ev, fabrika gibi yerlerden kullanılmış ve kullanıcının artık işine yaramayan maddelerin tümü",kelime:"atık"},
-    {ipucu:"Hastane, ev, fabrika gibi yerlerden kullanılmış ve kullanıcının artık işine yaramayan maddelerin tümü",kelime:"panik"},
-  ]
+   ]
   
    //let secilenKelime=kelimeler[Math.floor(Math.random()*kelimeler.length)];
    
