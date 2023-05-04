@@ -1,7 +1,7 @@
 import React,{useState} from "react";
 import Show from "../Uyarı/Show"
 const Word = ({secilenKelime,dogruHarfler,setDogruHarfler,setHatalıHarfler,hatalıHarfler,setScore,score}) => {//4
-  let alfabe=["a","b","c","d","e","f","g","h","e","ı","g","j","k","l","m","n","r","o","p","r","s","t","y","z","x","w"]
+  let alfabe = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'ı', 'i', 'j', 'k', 'l', 'm', 'n', 'o','p', 'r', 's', 't', 'u', 'v', 'y', 'z','x','w']
   const[uyarıGoster,setUyarıGoster]=useState(false);
 const handleAnswer=(harfim)=>{
     const harf=harfim;
